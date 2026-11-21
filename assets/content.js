@@ -648,7 +648,7 @@ const NODES = [
     meaning:
       "RV dysfunction and troponin elevation alone identify a large, heterogeneous group in which only a small fraction will actually decompensate; adding these bedside markers of physiological stress enriches for the smaller subgroup in whom a reperfusion trial has actually shown benefit.",
     rationale:
-      "Post hoc analysis of the PEITHO population showed that adding simple bedside markers of physiological stress to RV dysfunction and troponin elevation identifies a subgroup at appreciably higher short-term risk, an enrichment strategy subsequently adopted by HI-PEITHO, which required RV dysfunction and elevated troponin plus at least two of the four criteria shown above. One nuance worth flagging here: HI-PEITHO's own published enrolment criteria combined respiratory rate above 20/min and SpO2 below 90% into a single composite item, so the trial actually required two of three independent criteria, not two of four fully independent ones as this box (following the source figure) presents them. The underlying clinical substance — more physiological-stress markers identifies higher-risk patients — is unaffected by this simplification, but it is worth knowing the exact trial threshold differs slightly from how it is drawn here.",
+      "Post hoc analysis of the PEITHO population showed that adding simple bedside markers of physiological stress to RV dysfunction and troponin elevation identifies a subgroup at appreciably higher short-term risk, an enrichment strategy subsequently adopted by HI-PEITHO, which required RV dysfunction and elevated troponin plus at least two of the four criteria shown above. One nuance worth flagging here: HI-PEITHO's own published enrolment criteria combined respiratory rate above 20/min and SpO2 below 90% into a single composite item, so the trial actually required two of three independent criteria, not two of four fully independent ones as this box (following the source figure) presents them. The underlying clinical substance — more physiological-stress markers identifies higher-risk patients — is unaffected by this simplification, but it is worth knowing the exact trial threshold differs slightly from how it is drawn here. The Bova score offers a related, independently validated way to stage this same normotensive intermediate-risk population by 30-day PE-related complication risk, weighting systolic blood pressure, troponin, RV dysfunction and heart rate rather than requiring a fixed count of criteria — a different instrument for a related question, not a restatement of the two-of-four test used above.",
     refs: [7, 13]
   },
   {
@@ -717,6 +717,11 @@ const GLOSSARY = [
   {
     match: "Hestia",
     def: "An alternative 11-item European checklist — rather than a numeric score — used to identify PE patients safe for outpatient or early-discharge management. A patient with none of the Hestia exclusion criteria present is sometimes described as \"Hestia-negative\" or \"Hestia <1.\""
+  },
+  {
+    match: "Bova",
+    full: "Bova score",
+    def: "A four-variable score (systolic BP 90-100 mmHg, elevated troponin, RV dysfunction, heart rate >=110/min) used in normotensive PE patients to stage 30-day risk of PE-related complications. It overlaps with but is not equivalent to the simple RV-dysfunction-and-troponin test above: Bova weights each criterion differently, so a patient positive for both of those findings can still land in a lower stage if the other two criteria are absent."
   },
   {
     match: "CDT",
